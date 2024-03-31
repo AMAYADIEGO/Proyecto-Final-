@@ -12,3 +12,17 @@ D:\proyecto final\Proyecto-Final-\practico\obj\Debug\net7.0\refint\practico.dll
 D:\proyecto final\Proyecto-Final-\practico\obj\Debug\net7.0\practico.pdb
 D:\proyecto final\Proyecto-Final-\practico\obj\Debug\net7.0\practico.genruntimeconfig.cache
 D:\proyecto final\Proyecto-Final-\practico\obj\Debug\net7.0\ref\practico.dll
+D:\douglas\Proyecto-Final-\practico\bin\Debug\net7.0\practico.exe
+D:\douglas\Proyecto-Final-\practico\bin\Debug\net7.0\practico.deps.json
+D:\douglas\Proyecto-Final-\practico\bin\Debug\net7.0\practico.runtimeconfig.json
+D:\douglas\Proyecto-Final-\practico\bin\Debug\net7.0\practico.dll
+D:\douglas\Proyecto-Final-\practico\bin\Debug\net7.0\practico.pdb
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\practico.GeneratedMSBuildEditorConfig.editorconfig
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\practico.AssemblyInfoInputs.cache
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\practico.AssemblyInfo.cs
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\practico.csproj.CoreCompileInputs.cache
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\practico.dll
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\refint\practico.dll
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\practico.pdb
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\practico.genruntimeconfig.cache
+D:\douglas\Proyecto-Final-\practico\obj\Debug\net7.0\ref\practico.dll
