@@ -1,5 +1,5 @@
 ﻿using System.Numerics;
-using Practico;
+
 
 namespace practico
 {
@@ -21,6 +21,13 @@ namespace practico
           series.ejercicio4();
           series.ejercicio5();
 
+          Cadenas cadenas= new Cadenas();
+          cadenas.ejercicio1();
+          cadenas.ejercicio2();
+          cadenas.ejercicio3();
+          cadenas.ejercicio4();
+          cadenas.ejercicio5();
+
           Vectores vectores = new Vectores();
           vectores.Ejercicio1();
           vectores.Ejercicio2();
@@ -34,6 +41,8 @@ namespace practico
           matrices.ejercicio3();
           matrices.ejercicio4();
           matrices.ejercicio5();
+
+          
       }
         
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proyecto final\\Proyecto-Final-\\practico\\practico.csproj": {}
+    "D:\\douglas\\Proyecto-Final-\\practico\\practico.csproj": {}
   },
   "projects": {
-    "D:\\proyecto final\\Proyecto-Final-\\practico\\practico.csproj": {
+    "D:\\douglas\\Proyecto-Final-\\practico\\practico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proyecto final\\Proyecto-Final-\\practico\\practico.csproj",
+        "projectUniqueName": "D:\\douglas\\Proyecto-Final-\\practico\\practico.csproj",
         "projectName": "practico",
-        "projectPath": "D:\\proyecto final\\Proyecto-Final-\\practico\\practico.csproj",
+        "projectPath": "D:\\douglas\\Proyecto-Final-\\practico\\practico.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\proyecto final\\Proyecto-Final-\\practico\\obj\\",
+        "outputPath": "D:\\douglas\\Proyecto-Final-\\practico\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

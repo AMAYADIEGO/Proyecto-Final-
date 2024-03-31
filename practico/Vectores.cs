@@ -1,5 +1,5 @@
 using System;
-namespace Practico
+namespace practico
 {
 public class Vectores
 {
