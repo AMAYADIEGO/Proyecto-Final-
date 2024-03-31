@@ -1,17 +1,10 @@
 using System;
-
-class Program
+namespace Practico
 {
-    static void Main(string[] args)
-    {
-        Ejercicio1();
-        Ejercicio2();
-        Ejercicio3();
-        Ejercicio4();
-        Ejercicio5();
-    }
-
-    static void Ejercicio1()
+public class Vectores
+{
+   
+    public void Ejercicio1()
     {
         Console.WriteLine("Ingrese una lista de números separados por comas:");
         string[] numerosStr = Console.ReadLine().Split(',');
@@ -25,7 +18,7 @@ class Program
         Console.WriteLine("La cantidad de números pares en la lista es: " + cantidadPares);
     }
 
-    static int ContarPares(int[] numeros)
+    public int ContarPares(int[] numeros)
     {
         int count = 0;
         foreach (var num in numeros)
@@ -38,12 +31,12 @@ class Program
         return count;
     }
 
-    static bool EsPar(int numero)
+    public bool EsPar(int numero)
     {
         return numero % 2 == 0;
     }
 
-    static void Ejercicio2()
+    public void Ejercicio2()
     {
         Console.WriteLine("Ingrese una lista de números separados por comas para ordenar:");
         string[] numerosStr = Console.ReadLine().Split(',');
@@ -62,7 +55,7 @@ class Program
         ImprimirArray(numeros);
     }
 
-    static void MergeSort(int[] arr)
+    public void MergeSort(int[] arr)
     {
         if (arr.Length <= 1)
             return;
@@ -80,7 +73,7 @@ class Program
         Merge(arr, izquierda, derecha);
     }
 
-    static void Merge(int[] arr, int[] izquierda, int[] derecha)
+    public void Merge(int[] arr, int[] izquierda, int[] derecha)
     {
         int i = 0, j = 0, k = 0;
 
@@ -114,7 +107,7 @@ class Program
         }
     }
 
-    static void ImprimirArray(int[] arr)
+    public void ImprimirArray(int[] arr)
     {
         foreach (var num in arr)
         {
@@ -123,7 +116,7 @@ class Program
         Console.WriteLine();
     }
 
-     static void Ejercicio3()
+     public void Ejercicio3()
     {
         Console.WriteLine("Ingrese una lista de números separados por comas para ordenar:");
         string[] numerosStr = Console.ReadLine().Split(',');
@@ -142,7 +135,7 @@ class Program
         ImprimirArray(numeros);
     }
 
-    static void InsertionSort(int[] arr)
+    public void InsertionSort(int[] arr)
     {
         for (int i = 1; i < arr.Length; i++)
         {
@@ -158,7 +151,7 @@ class Program
         }
     }
 
-     static void Ejercicio4()
+     public void Ejercicio4()
     {
         Console.WriteLine("Ingrese una lista de números separados por comas:");
         string[] numerosStr = Console.ReadLine().Split(',');
@@ -177,7 +170,7 @@ class Program
         ImprimirArray(numeros);
     }
 
-    static void EliminarNumero(ref int[] arr, int numero)
+    public void EliminarNumero(ref int[] arr, int numero)
     {
         int index;
         while ((index = Array.IndexOf(arr, numero)) != -1)
@@ -194,7 +187,7 @@ class Program
         }
     }
 
-      static void Ejercicio5()
+      public void Ejercicio5()
     {
         Console.WriteLine("Ingrese una lista de números separados por comas:");
         string[] numerosStr = Console.ReadLine().Split(',');
@@ -216,7 +209,7 @@ class Program
         ImprimirArray(numeros);
     }
 
-    static void InvertirParte(ref int[] arr, int a, int b)
+    public void InvertirParte(ref int[] arr, int a, int b)
     {
         if (a < 0 || b >= arr.Length || a >= b)
         {
@@ -234,4 +227,5 @@ class Program
         }
     }
 
+}
 }
